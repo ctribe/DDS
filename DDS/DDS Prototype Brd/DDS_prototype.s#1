@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -139,7 +139,7 @@
 <wire x1="2" y1="2.5" x2="2.5" y2="2" width="0.127" layer="21"/>
 <wire x1="2" y1="-2.5" x2="2.5" y2="-2" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2" x2="-2" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-1.9" y="1.9" radius="0.22360625" width="0.127" layer="21"/>
+<circle x="-2.535" y="2.535" radius="0.22360625" width="0.127" layer="21"/>
 <wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
 <smd name="P$2" x="-2.375" y="1.25" dx="0.2" dy="0.7" layer="1" roundness="45" rot="R90"/>
 <smd name="P$1" x="-2.375" y="1.75" dx="0.2" dy="0.7" layer="1" roundness="45" rot="R90"/>
@@ -480,7 +480,7 @@
 <wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="2" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
 <text x="-3" y="2.5" size="1.27" layer="25" font="vector" ratio="11">&gt;Name</text>
-<wire x1="-2" y1="-1" x2="-1.5" y2="-1.5" width="0.127" layer="25"/>
+<wire x1="-2" y1="-1" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1733,7 +1733,7 @@ rf connector (SMA?)</text>
 <pinref part="FB1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="3V3_PROT" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="K"/>
 <pinref part="U2" gate="G$1" pin="VIN"/>

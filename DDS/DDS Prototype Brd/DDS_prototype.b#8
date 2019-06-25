@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -73,10 +73,44 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="36.576" y2="-0.127" width="0" layer="20"/>
-<wire x1="36.576" y1="-0.127" x2="36.576" y2="12.573" width="0" layer="20"/>
-<wire x1="36.576" y1="12.573" x2="0" y2="12.7" width="0" layer="20"/>
-<wire x1="0" y1="12.7" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="1.905" y1="0" x2="3.81" y2="0" width="0" layer="20"/>
+<wire x1="5.08" y1="0" x2="6.35" y2="0" width="0" layer="20"/>
+<wire x1="7.62" y1="0" x2="8.89" y2="0" width="0" layer="20"/>
+<wire x1="10.16" y1="0" x2="11.43" y2="0" width="0" layer="20"/>
+<wire x1="12.7" y1="0" x2="13.97" y2="0" width="0" layer="20"/>
+<wire x1="15.24" y1="0" x2="34.925" y2="0" width="0" layer="20"/>
+<wire x1="36.6522" y1="1.905" x2="36.6522" y2="10.795" width="0" layer="20"/>
+<wire x1="34.925" y1="12.7" x2="15.24" y2="12.7" width="0" layer="20"/>
+<wire x1="13.97" y1="12.7" x2="12.7" y2="12.7" width="0" layer="20"/>
+<wire x1="11.43" y1="12.7" x2="10.16" y2="12.7" width="0" layer="20"/>
+<wire x1="8.89" y1="12.7" x2="7.62" y2="12.7" width="0" layer="20"/>
+<wire x1="3.81" y1="12.7" x2="1.905" y2="12.7" width="0" layer="20"/>
+<wire x1="0" y1="10.795" x2="0" y2="1.905" width="0" layer="20"/>
+<wire x1="36.6522" y1="10.795" x2="34.925" y2="12.7" width="0" layer="20"/>
+<wire x1="36.6522" y1="1.905" x2="34.925" y2="0" width="0" layer="20"/>
+<wire x1="1.905" y1="12.7" x2="0" y2="10.795" width="0" layer="20"/>
+<wire x1="0" y1="1.905" x2="1.905" y2="0" width="0" layer="20"/>
+<wire x1="3.81" y1="12.7" x2="4.445" y2="12.065" width="0" layer="20"/>
+<wire x1="4.445" y1="12.065" x2="5.08" y2="12.7" width="0" layer="20"/>
+<wire x1="5.08" y1="12.7" x2="6.35" y2="12.7" width="0" layer="20"/>
+<wire x1="6.35" y1="12.7" x2="6.985" y2="12.065" width="0" layer="20"/>
+<wire x1="6.985" y1="12.065" x2="7.62" y2="12.7" width="0" layer="20"/>
+<wire x1="8.89" y1="12.7" x2="9.525" y2="12.065" width="0" layer="20"/>
+<wire x1="9.525" y1="12.065" x2="10.16" y2="12.7" width="0" layer="20"/>
+<wire x1="11.43" y1="12.7" x2="12.065" y2="12.065" width="0" layer="20"/>
+<wire x1="12.065" y1="12.065" x2="12.7" y2="12.7" width="0" layer="20"/>
+<wire x1="13.97" y1="12.7" x2="14.605" y2="12.065" width="0" layer="20"/>
+<wire x1="14.605" y1="12.065" x2="15.24" y2="12.7" width="0" layer="20"/>
+<wire x1="3.81" y1="0" x2="4.445" y2="0.635" width="0" layer="20"/>
+<wire x1="4.445" y1="0.635" x2="5.08" y2="0" width="0" layer="20"/>
+<wire x1="6.35" y1="0" x2="6.985" y2="0.635" width="0" layer="20"/>
+<wire x1="6.985" y1="0.635" x2="7.62" y2="0" width="0" layer="20"/>
+<wire x1="8.89" y1="0" x2="9.525" y2="0.635" width="0" layer="20"/>
+<wire x1="9.525" y1="0.635" x2="10.16" y2="0" width="0" layer="20"/>
+<wire x1="11.43" y1="0" x2="12.065" y2="0.635" width="0" layer="20"/>
+<wire x1="12.065" y1="0.635" x2="12.7" y2="0" width="0" layer="20"/>
+<wire x1="13.97" y1="0" x2="14.605" y2="0.635" width="0" layer="20"/>
+<wire x1="14.605" y1="0.635" x2="15.24" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Capacitors">
@@ -576,10 +610,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="7.436" y="6.855" size="0.762" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="J1" library="Connectors" package="1X6_MALE_HEADER_0.1" value="" x="9.525" y="1.27" smashed="yes" rot="R180">
-<attribute name="NAME" x="1.651" y="1.016" size="0.762" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="17.40328125" y="0.283034375" size="0.762" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="J2" library="Connectors" package="1X6_MALE_HEADER_0.1" value="" x="9.525" y="11.43" smashed="yes" rot="R180">
-<attribute name="NAME" x="1.651" y="12.192" size="0.762" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="17.283240625" y="11.8440875" size="0.762" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="J3" library="Connectors" package="1X3_MALE_HEADER_0.1" value="" x="29.718" y="6.223" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.242" y="11.049" size="0.762" layer="25" font="vector" ratio="15" rot="R180"/>
@@ -758,7 +792,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.72" y1="7.116" x2="13.716" y2="7.112" width="0.254" layer="1"/>
 <contactref element="J1" pad="P$5"/>
 <via x="2.5654" y="4.9276" extent="1-16" drill="0.254"/>
-<via x="1.0414" y="0.8636" extent="1-16" drill="0.254"/>
 <via x="0.7874" y="4.0386" extent="1-16" drill="0.254"/>
 <via x="3.8354" y="8.2296" extent="1-16" drill="0.254"/>
 <via x="12.8524" y="6.8326" extent="1-16" drill="0.254"/>
@@ -795,9 +828,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="4.4704" y="10.6426" extent="1-16" drill="0.254"/>
 <via x="20.5994" y="2.8956" extent="1-16" drill="0.254"/>
 <via x="3.9624" y="9.4996" extent="1-16" drill="0.254"/>
-<via x="1.4224" y="11.4046" extent="1-16" drill="0.254"/>
+<via x="1.449021875" y="11.147240625" extent="1-16" drill="0.254"/>
 <via x="0.9144" y="10.2616" extent="1-16" drill="0.254"/>
-<via x="0.7874" y="1.7526" extent="1-16" drill="0.254"/>
+<via x="1.479540625" y="1.41536875" extent="1-16" drill="0.254"/>
 <via x="14.6304" y="2.1336" extent="1-16" drill="0.254"/>
 <via x="17.4244" y="1.4986" extent="1-16" drill="0.254"/>
 <via x="17.4244" y="3.0226" extent="1-16" drill="0.254"/>
