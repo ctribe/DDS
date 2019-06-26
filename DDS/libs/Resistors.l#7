@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -62,9 +62,9 @@
 <package name="0603">
 <smd name="P$1" x="-0.85" y="0" dx="1.1" dy="1.2" layer="1"/>
 <smd name="P$2" x="0.85" y="0" dx="1.1" dy="1.2" layer="1"/>
-<text x="-1.4" y="0.9" size="0.75" layer="25">&gt;Name</text>
-<wire x1="-1.1" y1="0.7" x2="1.2" y2="0.7" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-0.7" x2="1.2" y2="-0.7" width="0.127" layer="21"/>
+<text x="-1.4" y="1.2" size="0.75" layer="25">&gt;Name</text>
+<wire x1="-1.1" y1="0.9" x2="1.2" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-0.9" x2="1.2" y2="-0.9" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -79,9 +79,27 @@
 <wire x1="3.175" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <pin name="P$1" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="point" direction="pas"/>
+<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="0603_RESISTOR" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FIXED_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
