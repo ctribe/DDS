@@ -59,26 +59,68 @@
 </layers>
 <library>
 <packages>
+<package name="DO-214BA">
+<smd name="K" x="-1.725" y="0" dx="1.68" dy="1.52" layer="1" rot="R180"/>
+<smd name="A" x="1.725" y="0" dx="1.68" dy="1.52" layer="1" rot="R180"/>
+<wire x1="2.375" y1="1.45" x2="2.375" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-2.375" y1="1.45" x2="-2.375" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-2.375" y1="-1.45" x2="-1.45" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="-1.45" x2="2.375" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-2.375" y1="1.45" x2="-1.45" y2="1.45" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="1.45" x2="2.375" y2="1.45" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="1.45" x2="-1.45" y2="-1.45" width="0.508" layer="21"/>
+<text x="-4.35" y="2.9" size="1.778" layer="25" font="vector">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SCHOTTKEY">
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="-0.635" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-0.635" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.635" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0.635" x2="0.9525" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.9525" y1="0.635" x2="0.9525" y2="0.3175" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-0.635" x2="0.3175" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="0.3175" y1="-0.635" x2="0.3175" y2="-0.3175" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="K" x="2.54" y="0" visible="off" length="point" direction="pas"/>
+<text x="-2.54" y="1.905" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;Value</text>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.15" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.15" layer="94"/>
+<wire x1="0.635" y1="-1.27" x2="0.635" y2="-0.635" width="0.15" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="1.27" width="0.15" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.905" y2="1.27" width="0.15" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="0.635" width="0.15" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="SCHOTTKEY_DO-214BA">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCHOTTKEY" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SCHOTTKEY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO-214BA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

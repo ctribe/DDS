@@ -1081,9 +1081,9 @@ rf connector (SMA?)</text>
 <attribute name="NAME" x="40.64" y="205.74" size="1.27" layer="95"/>
 <attribute name="VALUE" x="40.64" y="203.2" size="1.27" layer="96"/>
 </instance>
-<instance part="T1" gate="G$1" x="208.28" y="119.38" smashed="yes">
-<attribute name="NAME" x="198.12" y="137.16" size="1.27" layer="95"/>
-<attribute name="VALUE" x="198.12" y="134.62" size="1.27" layer="96"/>
+<instance part="T1" gate="G$1" x="208.28" y="119.38" smashed="yes" rot="MR180">
+<attribute name="NAME" x="198.12" y="101.6" size="1.27" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="198.12" y="104.14" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="Y1" gate="G$1" x="81.28" y="137.16" smashed="yes">
 <attribute name="NAME" x="78.74" y="143.51" size="1.27" layer="95" ratio="11"/>
@@ -1458,22 +1458,16 @@ rf connector (SMA?)</text>
 <wire x1="48.26" y1="20.32" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="66.04" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="20.32" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="T1" gate="G$1" pin="P$2"/>
-<wire x1="195.58" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$22" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="119.38" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="P$2"/>
+<wire x1="193.04" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="P$4"/>
-<wire x1="220.98" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="GND"/>
 <wire x1="223.52" y1="106.68" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="P$6"/>
+<wire x1="220.98" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND"/>
@@ -1485,6 +1479,18 @@ rf connector (SMA?)</text>
 <wire x1="144.78" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U$30" gate="G$1" pin="GND"/>
 <wire x1="142.24" y1="25.4" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="P$2"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="177.8" y1="129.54" x2="180.34" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="129.54" x2="180.34" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="66.04" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="GND"/>
+<wire x1="68.58" y1="22.86" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -1526,9 +1532,9 @@ rf connector (SMA?)</text>
 <label x="58.42" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="43.18" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
-<label x="43.18" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="43.18" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO_UPDATE" class="0">
@@ -1538,9 +1544,9 @@ rf connector (SMA?)</text>
 <label x="58.42" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
-<label x="43.18" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="50.8" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<label x="43.18" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWR_DWN_CTRL" class="0">
@@ -1594,7 +1600,7 @@ rf connector (SMA?)</text>
 <label x="73.66" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="IOUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IOUT"/>
 <wire x1="162.56" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
@@ -1603,12 +1609,12 @@ rf connector (SMA?)</text>
 <wire x1="165.1" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 <junction x="165.1" y="121.92"/>
-<pinref part="T1" gate="G$1" pin="P$1"/>
-<wire x1="195.58" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="129.54" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="P$3"/>
+<wire x1="190.5" y1="129.54" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="IOUT_N" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IOUT_N"/>
 <wire x1="162.56" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
@@ -1618,16 +1624,15 @@ rf connector (SMA?)</text>
 <wire x1="165.1" y1="116.84" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
 <junction x="165.1" y="116.84"/>
 <wire x1="190.5" y1="116.84" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="P$3"/>
+<pinref part="T1" gate="G$1" pin="P$1"/>
 <wire x1="190.5" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="DDS" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="P$6"/>
-<wire x1="220.98" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="P$4"/>
+<wire x1="220.98" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DDS_COAX" class="0">
@@ -1657,9 +1662,9 @@ rf connector (SMA?)</text>
 <wire x1="233.68" y1="127" x2="236.22" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="66.04" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-<label x="73.66" y="22.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="66.04" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="73.66" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
