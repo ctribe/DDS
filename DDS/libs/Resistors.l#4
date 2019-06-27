@@ -121,7 +121,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR">
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FIXED_RESISTOR" x="0" y="0"/>
 </gates>

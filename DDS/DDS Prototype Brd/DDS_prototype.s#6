@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -946,14 +946,7 @@
 <wire x1="0.5" y1="0.2" x2="0.5" y2="-0.2" width="0.05" layer="21"/>
 <wire x1="0.5" y1="-0.2" x2="0.5" y2="-0.25" width="0.05" layer="21"/>
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.05" layer="21"/>
-<wire x1="0.2" y1="0.3" x2="0.5" y2="0.3" width="0.05" layer="21"/>
-<wire x1="0.5" y1="0.3" x2="0.5" y2="0.25" width="0.05" layer="21"/>
-<wire x1="0.5" y1="0.2" x2="0.2" y2="0.2" width="0.05" layer="21"/>
-<wire x1="0.2" y1="0.2" x2="0.2" y2="0.3" width="0.05" layer="21"/>
-<wire x1="0.2" y1="-0.2" x2="0.2" y2="-0.3" width="0.05" layer="21"/>
-<wire x1="0.2" y1="-0.3" x2="0.5" y2="-0.3" width="0.05" layer="21"/>
-<wire x1="0.5" y1="-0.3" x2="0.5" y2="-0.25" width="0.05" layer="21"/>
-<wire x1="0.5" y1="-0.2" x2="0.2" y2="-0.2" width="0.05" layer="21"/>
+<circle x="0.37989375" y="0.3832875" radius="0.012596875" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1040,6 +1033,7 @@
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
@@ -1603,9 +1597,9 @@
 <label x="33.02" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="66.04" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-<label x="73.66" y="25.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="73.66" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDIO" class="0">
@@ -1671,9 +1665,9 @@
 <label x="93.98" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="66.04" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<label x="73.66" y="27.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="66.04" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
+<label x="73.66" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PS1" class="0">
@@ -1683,9 +1677,9 @@
 <label x="93.98" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<label x="73.66" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="66.04" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="73.66" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PS2" class="0">
@@ -1695,9 +1689,9 @@
 <label x="93.98" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
-<label x="73.66" y="33.02" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="73.66" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IOUT" class="0">
