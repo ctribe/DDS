@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -321,7 +321,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AD9913" urn="urn:adsk.eagle:component:11844895/1" locally_modified="yes" prefix="U" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="AD9913" urn="urn:adsk.eagle:component:11844895/2" prefix="U" uservalue="yes" library_version="2">
 <gates>
 <gate name="G$1" symbol="AD9913" x="-5.08" y="-2.54"/>
 </gates>
@@ -371,7 +371,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="S-1711" urn="urn:adsk.eagle:component:11844894/1" locally_modified="yes" prefix="U" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="S-1711" urn="urn:adsk.eagle:component:11844894/2" prefix="U" uservalue="yes" library_version="2">
 <gates>
 <gate name="G$1" symbol="S-1711" x="0" y="0"/>
 </gates>
@@ -394,7 +394,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADTT1-6+" urn="urn:adsk.eagle:component:11844892/1" locally_modified="yes" prefix="T" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="ADTT1-6+" urn="urn:adsk.eagle:component:11844892/2" prefix="T" uservalue="yes" library_version="2">
 <gates>
 <gate name="G$1" symbol="TT1-6" x="0" y="0"/>
 </gates>
@@ -619,7 +619,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1X6_MALE_HEADER_0.1" urn="urn:adsk.eagle:component:11845011/1" locally_modified="yes" prefix="J" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="1X6_MALE_HEADER_0.1" urn="urn:adsk.eagle:component:11845011/2" prefix="J" uservalue="yes" library_version="2">
 <gates>
 <gate name="G$1" symbol="1X6_GENERIC" x="0" y="0"/>
 </gates>
@@ -642,7 +642,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X3_MALE_HEADER_0.1" urn="urn:adsk.eagle:component:11845010/1" locally_modified="yes" prefix="J" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="1X3_MALE_HEADER_0.1" urn="urn:adsk.eagle:component:11845010/2" prefix="J" uservalue="yes" library_version="2">
 <gates>
 <gate name="G$1" symbol="1X3_GENERIC" x="0" y="-2.54"/>
 </gates>
@@ -662,7 +662,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMA_EMPCB.SMAFSTJ.B.HT" urn="urn:adsk.eagle:component:11845009/1" locally_modified="yes" prefix="J" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="SMA_EMPCB.SMAFSTJ.B.HT" urn="urn:adsk.eagle:component:11845009/2" prefix="J" uservalue="yes" library_version="2">
 <gates>
 <gate name="G$1" symbol="COAX" x="0" y="0" swaplevel="25"/>
 </gates>
@@ -795,7 +795,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CC0402KRX5R7BB105" urn="urn:adsk.eagle:component:11857168/1" locally_modified="yes" prefix="C" uservalue="yes" library_version="2" library_locally_modified="yes">
+<deviceset name="CC0402KRX5R7BB105" urn="urn:adsk.eagle:component:11857168/2" prefix="C" uservalue="yes" library_version="3">
 <description>CAP CER 1UF 16V X5R 0402</description>
 <gates>
 <gate name="G$1" symbol="FIXED_CAP" x="0" y="0"/>
@@ -821,7 +821,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CC0402JRNPO9BN101" prefix="C" uservalue="yes" library_version="2" library_locally_modified="yes">
+<deviceset name="CC0402JRNPO9BN101" urn="urn:adsk.eagle:component:11863836/1" prefix="C" uservalue="yes" library_version="3">
 <description>CAP CER 100PF 50V C0G/NPO 0402</description>
 <gates>
 <gate name="G$1" symbol="FIXED_CAP" x="0" y="0"/>
@@ -847,7 +847,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CC0402KRX5R7BB104" prefix="C" uservalue="yes" library_version="2" library_locally_modified="yes">
+<deviceset name="CC0402KRX5R7BB104" urn="urn:adsk.eagle:component:11863837/1" prefix="C" uservalue="yes" library_version="3">
 <description>CAP CER 0.1UF 16V X5R 0402</description>
 <gates>
 <gate name="G$1" symbol="FIXED_CAP" x="0" y="0"/>
@@ -873,7 +873,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CC0402DRNPO9BN7R0" urn="urn:adsk.eagle:component:11857167/1" locally_modified="yes" prefix="C" uservalue="yes" library_version="2" library_locally_modified="yes">
+<deviceset name="CC0402DRNPO9BN7R0" urn="urn:adsk.eagle:component:11857167/2" prefix="C" uservalue="yes" library_version="3">
 <description>CAP CER 7PF 50V C0G/NPO 0402</description>
 <gates>
 <gate name="G$1" symbol="FIXED_CAP" x="0" y="0"/>
@@ -941,7 +941,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="LED" urn="urn:adsk.eagle:symbol:11857404/1" locally_modified="yes" library_version="4" library_locally_modified="yes">
+<symbol name="LED" urn="urn:adsk.eagle:symbol:11857404/2" library_version="5">
 <wire x1="-0.635" y1="1.27" x2="-0.635" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.635" y1="0" x2="-0.635" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="-0.635" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
@@ -983,7 +983,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="QBLP595-IG" urn="urn:adsk.eagle:component:11857408/3" locally_modified="yes" prefix="D" uservalue="yes" library_version="4" library_locally_modified="yes">
+<deviceset name="QBLP595-IG" urn="urn:adsk.eagle:component:11857408/4" prefix="D" uservalue="yes" library_version="5">
 <description>LED GREEN CLEAR 0402 SMD</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
@@ -1216,7 +1216,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TSX-322525.0000MF10P-C0" urn="urn:adsk.eagle:component:11857307/1" locally_modified="yes" prefix="Y" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="TSX-322525.0000MF10P-C0" urn="urn:adsk.eagle:component:11857307/2" prefix="Y" uservalue="yes" library_version="2">
 <description>CRYSTAL 25.0000MHZ 18PF SMD</description>
 <gates>
 <gate name="G$1" symbol="XTAL" x="0" y="0"/>
@@ -1275,7 +1275,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BLM18KG102SN1D" urn="urn:adsk.eagle:component:11857452/1" locally_modified="yes" prefix="FB" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="BLM18KG102SN1D" urn="urn:adsk.eagle:component:11857452/2" prefix="FB" uservalue="yes" library_version="2">
 <description>FERRITE BEAD 1 KOHM 0603 1LN</description>
 <gates>
 <gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>

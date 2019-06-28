@@ -659,10 +659,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D1" library="Diodes" package="DO-214BA" value="LSM115JE3" x="3.846909375" y="8.255" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.7300625" y="9.90386875" size="0.762" layer="25" font="vector" ratio="15"/>
 </element>
-<element name="R1" library="Resistors" package="0402" value="" x="8.255" y="8.89" smashed="yes" rot="R270">
+<element name="R1" library="Resistors" package="0402" value="100k" x="8.255" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.401" y="8.968" size="0.762" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R2" library="Resistors" package="0402" value="" x="9.525" y="8.89" smashed="yes" rot="R270">
+<element name="R2" library="Resistors" package="0402" value="4.65k" x="9.525" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.984" y="8.982" size="0.762" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="R6" library="Resistors" package="0402" value="100k" x="11.245790625" y="9.6355625" smashed="yes" rot="MR0">

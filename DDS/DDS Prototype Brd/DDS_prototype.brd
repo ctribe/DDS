@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -72,7 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMTczNDk" projecturn="a.YnVzaW5lc3M6Z21haWwyMTczNDkjRDIwMTkwNjI1MjAwNzYzNTAx" f3durn="urn:adsk.wipprod:dm.lineage:L6iagWy1RZ29c5Tw8XbFRA" pcbguid="8e4313ef-8497-4ae5-8bce-294f77e371e7" lastpulledtime="2019-06-27T08:39:31Z" lastsyncedchangeguid="a49e391e-7132-a9fb-f010-edcbf8a53f8b"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMTczNDk" projecturn="a.YnVzaW5lc3M6Z21haWwyMTczNDkjRDIwMTkwNjI1MjAwNzYzNTAx" f3durn="urn:adsk.wipprod:dm.lineage:L6iagWy1RZ29c5Tw8XbFRA" pcbguid="8e4313ef-8497-4ae5-8bce-294f77e371e7" lastpulledtime="2019-06-28T02:13:36Z" lastsyncedchangeguid="c3333c1d-d7e6-317f-fa55-f984d8925a92"/>
 <plain>
 <text x="34.925" y="1.5875" size="0.762" layer="22" font="vector" ratio="15" rot="MR0">AD9913 DDS Prototype Board R01</text>
 <text x="34.925" y="0.635" size="0.762" layer="22" font="vector" ratio="15" rot="MR0">KI7MNW June, 2019</text>
